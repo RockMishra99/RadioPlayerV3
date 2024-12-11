@@ -43,19 +43,25 @@ NOTE: Change the app region to Europe (it will help to make the bot stable)
 NOTE: Make Sure You Have Started A Voice Chat In Your Channel/Group Before Deploying!
 
 ## Config Vars:
-1. `API_ID` : Get it from https://my.telegram.org/apps
-2. `API_HASH` : Get it from https://my.telegram.org/apps
-3. `BOT_TOKEN` : Get it from [@Botfather](https://t.me/botfather) XD
-4. `SESSION_STRING` : Generate from [@genStr robot](http://t.me/genStr_robot) or [![genStr](https://img.shields.io/badge/repl.it-genStr-yellowgreen)](https://repl.it/@AsmSafone/genStr)
-5. `CHAT_ID` : ID of Channel/Group where the bot plays Music/Radio.
-6. `LOG_GROUP` : ID of Group to send Playlist, if CHAT_ID is a Group.
-7. `AUTH_USERS` : ID of Auth Users who can use Admin commands. (for multiple users seperated by space)
-8. `STREAM_URL` : Stream URL of radio station or a youtube live video to stream when the bot starts or with /radio command. Here is [Some Live Streaming Links](https://telegra.ph/Live-Radio-Stream-Links-05-17).
-9. `MAXIMUM_DURATION` : Maximum duration of song to play.(Optional)
-10. `REPLY_MESSAGE` : A reply to those who message the USER account in PM. Leave it blank if you do not need this feature.
-11. `ADMIN_ONLY` : Pass 'True' If you want to make /play commands only for admins of CHAT. By default /play is available for all.
-12. `HEROKU_API_KEY`: Your Heroku api key. Get it from [here](https://dashboard.heroku.com/account)
-13. `HEROKU_APP_NAME`: Name of your Heroku app if deploying to heroku.
+1. `API_ID` : 24969364 https://my.telegram.org/apps
+2. `API_HASH` : 6ba0442a9d967f4f83e87041e8366939https://my.telegram.org/apps
+3. `BOT_TOKEN` :
+7487090393:AAHMQ6nChL6IXR5OyJTcL89B4AO9pjTwCQk [@Botfather(https://t.me/botfather) XD
+5. `SESSION_STRING` :
+6. Jimicreator/Telegram-String-Session-Generater(http://t.me/genStr_robot) or [![genStr](https://img.shields.io/badge/repl.it-genStr-yellowgreen)](https://repl.it/@AsmSafone/genStr)
+7. `CHAT_ID` : -1002332513857
+8. where the bot plays Music/Radio.
+9. `LOG_GROUP` : -1002332513857
+10. Playlist, if CHAT_ID is a Group.
+11. `AUTH_USERS` : ID of Auth Users who can use Admin commands. (for multiple users seperated by space)
+12. `STREAM_URL` : rtmps://dc5-1.rtmp.t.me/s
+13. theLinks(https://telegra.ph/Live-Radio-Stream-Links-05-17).
+14. `MAXIMUM_DURATION` : Maximum duration of song to play.(Optional)
+15. `REPLY_MESSAGE` : A reply to those who message the USER account in PM. Leave it blank if you do not need this feature.
+16. `ADMIN_ONLY` : Pass 'True' If you want to make /play commands only for admins of CHAT. By default /play is available for all.
+17. `HEROKU_API_KEY`: 6ba0442a9d967f4f83e87041e8366939
+18. Yo[here(https://dashboard.heroku.com/account)
+19. `HEROKU_APP_NAME`: Name of your Heroku app if deploying to heroku.
 
 - Enable the worker after deploy the project to Heroku.
 - Bot will starts radio automatically in given `CHAT_ID` with given `STREAM_URL` after deploy. 
